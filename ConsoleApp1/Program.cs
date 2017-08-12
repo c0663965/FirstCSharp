@@ -1,6 +1,6 @@
 
 // Linear System Space State Model Numerical Intergration Using RK4 method
-// Full Written by Kihoon, Lee
+// Fully written by Kihoon, Lee
 
 using System;
 using System.Collections;
