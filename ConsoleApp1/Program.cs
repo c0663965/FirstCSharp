@@ -1,4 +1,8 @@
-﻿using System;
+
+// Linear System Space State Model Numerical Intergration Using RK4 method
+// Full Written by Kihoon, Lee
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,19 +13,14 @@ namespace ConsoleApp1
 {
     class Program
     {
-        
-
         static void Main(string[] args)
         {
-
-
             double[][] A = new double[2][];
-
             A[0] = new double[]{0, 1};
             A[1] = new double[]{-1,-1};
+
             double[] B = { 0, 1 };
             double u = 1;
-
 
             double[] x = { 0, 0 };
             double[] x0 = { 0, 0 };
@@ -33,10 +32,8 @@ namespace ConsoleApp1
             double[] xdot = { 0, 0 };
             double[] dx = { 0, 0 };
 
-            
             double tf = 100;
             double t = 0;
-
 
             List<List<double>> data = new List<List<double>>();
 
